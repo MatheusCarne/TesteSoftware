@@ -37,21 +37,21 @@ Dataset utilizado: [MovieLens](https://grouplens.org/datasets/movielens/)
 
 ```
 sistema_recomendacao/
-├── data_loader.py           # Carregamento e limpeza dos dados
-├── preprocessamento.py      # Pré-processamento e divisão treino/teste
-├── recomendacao_svd.py      # Recomendador baseado em SVD
-├── recomendacao_lr.py       # Recomendador baseado em Regressão Logística
-├── recomendacao_nn.py       # Recomendador baseado em Rede Neural
-├── __init__.py
-├── EntregaFinal.ipynb       # Notebook original da disciplina de Mineração de Dados
-├── requirements.txt
-├── README.md
-└── tests/
-    ├── test_data_loader.py        # Testes unitários — DataLoader
-    ├── test_preprocessamento.py   # Testes unitários — Preprocessador
-    ├── test_recomendacao_svd.py   # Testes unitários — RecomendadorSVD
-    ├── test_recomendacao_lr.py    # Testes unitários — RecomendadorRegressaoLogistica
-    └── test_integracao.py         # Testes de integração — Pipeline completo
+  ├── data_loader.py           # Carregamento e limpeza dos dados
+  ├── preprocessamento.py      # Pré-processamento e divisão treino/teste
+  ├── recomendacao_svd.py      # Recomendador baseado em SVD
+  ├── recomendacao_lr.py       # Recomendador baseado em Regressão Logística
+  ├── recomendacao_nn.py       # Recomendador baseado em Rede Neural
+  ├── __init__.py
+  ├── EntregaFinal.ipynb       # Notebook original da disciplina de Mineração de Dados
+  └── requirements.txt
+README.md
+testes_unitarios/
+  ├── test_data_loader.py        # Testes unitários — DataLoader
+  ├── test_preprocessamento.py   # Testes unitários — Preprocessador
+  ├── test_recomendacao_svd.py   # Testes unitários — RecomendadorSVD
+  ├── test_recomendacao_lr.py    # Testes unitários — RecomendadorRegressaoLogistica
+  └── test_integracao.py         # Testes de integração — Pipeline completo
 ```
 
 ---
@@ -62,8 +62,7 @@ sistema_recomendacao/
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/<seu-usuario>/sistema_recomendacao.git
-cd sistema_recomendacao
+git clone https://github.com/MatheusCarne/TesteSoftware
 ```
 
 **2. Crie um ambiente virtual (recomendado):**
