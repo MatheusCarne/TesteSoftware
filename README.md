@@ -1,5 +1,30 @@
 # 🎬 Sistema de Recomendação de Filmes
+## 👨‍🎓 Integrantes
 
+<div style="display: inline_block;" align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MatheusCarne" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/88046644?v=4" width="100px;" alt="Avatar Matheus"/><br>
+        <sub>
+          <b>Matheus Carneiro | 202111250033</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MarinoMouzinho" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/42475699?v=4" width="100px;" alt="Avatar Marino"/><br>
+        <sub>
+          <b>Marino Mouzinho | 202221250034</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
 Projeto desenvolvido para as disciplinas de **Mineração de Dados** e **Testes de Software**.
 
 O sistema recomenda filmes personalizados com base nas avaliações feitas pelos usuários, utilizando três abordagens de aprendizado de máquina: **SVD (Filtragem Colaborativa)**, **Regressão Logística** e **Rede Neural com Embeddings**.
