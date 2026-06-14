@@ -1,0 +1,68 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos compilados
+*.so
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos de cobertura de testes
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Relatórios
+coverage.xml
+nosetests.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do PyCharm
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# Cache do mypy
+.mypy_cache/
+
+# Cache do Ruff
+.ruff_cache/
+
+# Cache do unittest
+.cache/
+
+# Arquivos gerados pelo sistema
+*.bak
+*.swp

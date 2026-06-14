@@ -33,10 +33,10 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from data_loader import DataLoader
-from preprocessamento import Preprocessador
-from recomendacao_svd import RecomendadorSVD
-from recomendacao_lr import RecomendadorRegressaoLogistica
+from sistema_recomendacao.data_loader import DataLoader
+from sistema_recomendacao.preprocessamento import Preprocessador
+from sistema_recomendacao.recomendacao_svd import RecomendadorSVD
+from sistema_recomendacao.recomendacao_lr import RecomendadorRegressaoLogistica
 from sklearn.model_selection import train_test_split
 
 

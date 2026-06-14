@@ -20,8 +20,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from recomendacao_svd import RecomendadorSVD
-from preprocessamento import Preprocessador
+from sistema_recomendacao.recomendacao_svd import RecomendadorSVD
+from sistema_recomendacao.preprocessamento import Preprocessador
 
 
 # ─────────────────────────────────────────────

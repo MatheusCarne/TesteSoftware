@@ -22,8 +22,7 @@ import sys
 # Adiciona o diretório pai ao path para importar os módulos
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from data_loader import DataLoader
-
+from sistema_recomendacao.data_loader import DataLoader
 
 # ─────────────────────────────────────────────
 # Dados sintéticos (mock) reutilizados nos testes

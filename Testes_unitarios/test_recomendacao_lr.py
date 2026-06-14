@@ -19,8 +19,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from recomendacao_lr import RecomendadorRegressaoLogistica
-from preprocessamento import Preprocessador
+from sistema_recomendacao.recomendacao_lr import RecomendadorRegressaoLogistica
+from sistema_recomendacao.preprocessamento import Preprocessador
 
 
 # ─────────────────────────────────────────────
